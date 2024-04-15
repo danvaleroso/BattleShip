@@ -1,0 +1,228 @@
+﻿body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(142, 183, 238);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-container {
+    margin: 10px;
+    text-align: center;
+}
+
+#GameTitle {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#Info {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.player-field, .pc-field, .display-field {
+    text-align: center;
+}
+
+.grid-player, .grid-pc {
+    width: 400px;
+    min-width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    margin: 20px;
+}
+
+.grid {
+    border: 1px solid purple;
+}
+
+.field-cell {
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field-cell-button {
+    width: inherit;
+    height: 38px;
+    border: none;
+}
+
+.grid-display {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-color: aqua;
+    border: 1px solid purple;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ship-container {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history-player, .history-pc {
+    width: 100px;
+    min-width: 100px;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 10px;
+}
+
+ol {
+    padding: 20px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .controls * {
+        margin: 8px;
+    }
+
+.range-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+    width: 205px;
+    height: 60px;
+}
+
+button, #StartButton, #AutomaticButton, #ManualButton, #PlayAgainButton {
+    height: 60px;
+    width: 150px;
+    font-weight: 600;
+    font-size: large;
+    background-color: aqua;
+}
+
+h4, h3, h2 {
+    margin: 0;
+}
+
+.PlayerDestroyer-1, .PlayerDestroyer-2, .PlayerDestroyer-3 {
+    background-color: orange;
+}
+
+.PlayerSubmarine-1, .PlayerSubmarine-2, .PlayerSubmarine-3, .PlayerSubmarine-4 {
+    background-color: green;
+}
+
+.PlayerCruiser-1, .PlayerCruiser-2 {
+    background-color: purple;
+}
+
+.PlayerBattleship-1 {
+    background-color: blue;
+}
+
+.Submarine-container {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    margin: 5px;
+    display: flex;
+}
+
+.Destroyer-container {
+    width: 80px;
+    height: 40px;
+    background-color: orange;
+    margin: 5px;
+    display: flex;
+}
+
+.Destroyer-container-vertical {
+    width: 40px;
+    height: 80px;
+    background-color: orange;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Cruiser-container {
+    width: 120px;
+    height: 40px;
+    background-color: purple;
+    margin: 5px;
+    display: flex;
+}
+
+.Cruiser-container-vertical {
+    width: 40px;
+    height: 120px;
+    background-color: purple;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Battleship-container {
+    width: 160px;
+    height: 40px;
+    background-color: blue;
+    margin: 5px;
+    display: flex;
+}
+
+.Battleship-container-vertical {
+    width: 40px;
+    height: 160px;
+    background-color: blue;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ship div {
+    width: 40px;
+    height: 40px;
+}
+
+.hit {
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.miss {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.auto-style2 {
+    width: 317px;
+    height: 74px;
+}
